@@ -208,7 +208,6 @@ trust_ref_05b <- trust_ref_05a %>%
 ##############################################
 
 trust_ref_final <- trust_ref_05b %>% 
-  #filter(!procode=="04X") %>% 
   as.data.frame() 
 
 write_csv(trust_ref_final, paste0(path, "/trust_ref_file.csv"))
