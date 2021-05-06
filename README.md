@@ -1,5 +1,5 @@
 # trust_reference_data_file
-R code that creates a data file containing characteristics of NHS England trusts using publicly-available reference data.
+R code that creates a data file (trust_ref_file_csv) containing characteristics of NHS England trusts using publicly-available reference data.
 
 
 #### Project Status: On-going
@@ -12,7 +12,7 @@ The Improvement Analytics Unit (IAU) uses quite a lot of publicly-available refe
 
 This repository describes the way that the IAU created a data file containing characteristics of NHS England acute and mental health trusts using publicly-available reference data (described in 'Data sources' section below). This trust-level file contains yearly series of data about catchment population sizes, demographics of patients registered and hospital activity. 
 
-The IAU would use this trust reference data file to capture information for risk adjustment in counterfactual analyses using synthetic control methods at trust level. One example is the IAU 'DECISION' project that examines how the provision of a psychiatric decision unit (PDU) impacts hospital utilisation at some mental health trusts and their associated local acute trusts in the country 2 years after the opening of the PDU. However, we believe that this file might be useful to other analytics units that would need a dataset containing characteristics of NHS England trusts.
+The IAU would use this trust reference data file to get information for risk adjustment in counterfactual analyses using synthetic control methods at trust level. One example is the IAU 'DECISION' project that examines how the provision of a psychiatric decision unit (PDU) impacts hospital utilisation at some mental health trusts and their associated local acute trusts in the country 2 years after the opening of the PDU. However, we believe that this file might be useful to other analytics units that would need a dataset containing characteristics of NHS England trusts.
 
 
 ## Requirements
